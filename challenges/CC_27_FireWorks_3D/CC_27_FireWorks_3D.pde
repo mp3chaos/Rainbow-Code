@@ -33,9 +33,9 @@ void draw() {
   rotateY(frameCount*0.003);
 
   // Floor
-  stroke(255);
+  stroke(0);
   strokeWeight(1);
-  fill(51);
+  fill(0);
   beginShape();
   vertex(-width, height/2, -800);
   vertex(width, height/2, -800);
